@@ -5,5 +5,6 @@ if __name__ == "__main__":
     import alchemy.grimoire.dark_spellbook as spell
 
     print(
-        f"Testing record light spell: {spell.dark_spell_record('Fantasy', 'Earth, wind, fire')}"
+        "Testing record light spell: "
+        f"{spell.dark_spell_record('Fantasy', 'Earth, wind, fire')}"
     )

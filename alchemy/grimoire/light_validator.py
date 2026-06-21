@@ -1,5 +1,7 @@
 def validate_ingredients(ingredients: str) -> str:
-    from .light_spellbook import light_spell_allowed_ingredients as spell_ingredients
+    from .light_spellbook import (
+        light_spell_allowed_ingredients as spell_ingredients,
+    )
 
     allowed_ingredients: list[str] = spell_ingredients()
     ingredients_list: list[str] = ingredients.split(" ")

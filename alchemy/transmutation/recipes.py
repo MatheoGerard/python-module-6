@@ -4,4 +4,7 @@ import elements
 
 
 def lead_to_gold() -> str:
-    return f"Recipe transmuting Lead to Gold: brew ’{al_elem.create_air()}’ and ’{pot.strength_potion()}’ mixed with ’{elements.create_fire()}’"
+    return (
+        f"Recipe transmuting Lead to Gold: brew ’{al_elem.create_air()}’"
+        f" and ’{pot.strength_potion()}’ mixed with ’{elements.create_fire()}’"
+    )
